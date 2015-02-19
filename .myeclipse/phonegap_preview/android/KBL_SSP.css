@@ -141,8 +141,10 @@
 }
 
 .m1-background-1{
-  background-color: rgb(255,255,255);
-  background-image: none;
+  -webkit-background-size: 100%;
+  background-color: rgba(0,0,0,0);
+  background-image: url(images/background_ssp.png);
+  background-repeat: no-repeat;
 }
 
 .m1-font-1{
